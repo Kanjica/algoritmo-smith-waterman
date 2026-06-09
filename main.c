@@ -2,11 +2,11 @@
 #include "fasta.h"
 
 int main(int argc, char *argv[]) {
-    char* s1 = ler_fasta("../testeDistanciaEdicao/orf6_yp394.fasta");
-    char* s2 = ler_fasta("../testeDistanciaEdicao/orf6_bhy586.fasta");
+    char* s1 = ler_fasta("orf6_yp394.fasta");
+    char* s2 = ler_fasta("orf6_bhy586.fasta");
 
-    // char* s1 = ler_fasta("../testeLocalGlobal/homo_sapiens_NM_000558_5.fasta");
-    // char* s2 = ler_fasta("../testeLocalGlobal/pan_troglodytes_X00226_1.fasta");
+    // char* s1 = ler_fasta("homo_sapiens_NM_000558_5.fasta");
+    // char* s2 = ler_fasta("pan_troglodytes_X00226_1.fasta");
 
     if (!s1 || !s2){printf("erropainho");return 1;}
 
